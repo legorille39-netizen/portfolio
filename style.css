@@ -1,0 +1,23 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Segoe UI', sans-serif; background:#1a1a2e; color:#fff; }
+
+nav { display:flex; justify-content:space-between; align-items:center; padding:18px 25px; background:#16213e; flex-wrap:wrap; }
+.logo { font-size:22px; font-weight:bold; color:#ff6b6b; }
+.liens a { color:#fff; text-decoration:none; margin-left:18px; font-size:15px; padding:6px 10px; border-radius:6px; }
+.liens a.actif, .liens a:hover { background:#ff6b6b; color:#1a1a2e; font-weight:bold; }
+
+.hero { text-align:center; padding:60px 20px; background:linear-gradient(135deg,#ff6b6b,#feca57); color:#1a1a2e; }
+.hero h1 { font-size:32px; margin-bottom:15px; }
+.hero h1 span { color:#1a1a2e; text-decoration:underline; }
+.hero p { font-size:16px; margin-bottom:25px; }
+.bouton { display:inline-block; background:#1a1a2e; color:#feca57; padding:12px 28px; border-radius:30px; text-decoration:none; font-weight:bold; }
+
+.page-titre { text-align:center; padding:40px 20px 20px; }
+.page-titre h1 { font-size:28px; color:#feca57; margin-bottom:10px; }
+
+.cartes { display:flex; flex-wrap:wrap; gap:20px; padding:30px 20px; justify-content:center; }
+.carte { background:#16213e; border-radius:15px; padding:25px; width:260px; border-top:4px solid #ff6b6b; }
+.carte h3 { color:#feca57; margin-bottom:10px; font-size:18px; }
+.carte p { font-size:14px; line-height:1.5; color:#ddd; }
+
+footer { text-align:center; padding:20px; background:#16213e; color:#aaa; font-size:13px; margin-top:20px; }
